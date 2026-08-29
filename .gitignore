@@ -1,0 +1,50 @@
+# Data files (large, not tracked)
+data/raw/*
+data/processed/*
+outputs/processed_data/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!outputs/processed_data/.gitkeep
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.coverage
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Power BI
+*.pbix
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp

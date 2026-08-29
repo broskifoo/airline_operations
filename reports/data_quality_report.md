@@ -1,0 +1,529 @@
+# Data Quality Report
+
+**Generated**: 2026-08-30 00:09:32
+
+---
+
+## flights
+
+- **Initial Rows**: 100,000
+- **Final Rows**: 7,079,081
+- **Rows Removed**: 0
+- **Initial Columns**: 35
+- **Final Columns**: 59
+
+### Cleaning Steps
+
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 351 cancelled flights
+- Capped 2 extreme values in dep_delay_min at 1440 minutes
+- Capped 2 extreme values in arr_delay_min at 1440 minutes
+- Capped 2 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 3887 cancelled flights
+- Capped 9 extreme values in dep_delay_min at 1440 minutes
+- Capped 10 extreme values in arr_delay_min at 1440 minutes
+- Capped 6 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 10175 cancelled flights
+- Capped 35 extreme values in dep_delay_min at 1440 minutes
+- Capped 36 extreme values in arr_delay_min at 1440 minutes
+- Capped 18 extreme values in carrier_delay_min at 1440 minutes
+- Capped 8 extreme values in weather_delay_min at 1440 minutes
+- Capped 5 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 3223 cancelled flights
+- Capped 9 extreme values in dep_delay_min at 1440 minutes
+- Capped 10 extreme values in arr_delay_min at 1440 minutes
+- Capped 7 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 2592 cancelled flights
+- Capped 8 extreme values in dep_delay_min at 1440 minutes
+- Capped 8 extreme values in arr_delay_min at 1440 minutes
+- Capped 7 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 633 cancelled flights
+- Capped 5 extreme values in dep_delay_min at 1440 minutes
+- Capped 5 extreme values in arr_delay_min at 1440 minutes
+- Capped 3 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in weather_delay_min at 1440 minutes
+- Capped 1 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 659 cancelled flights
+- Capped 9 extreme values in dep_delay_min at 1440 minutes
+- Capped 9 extreme values in arr_delay_min at 1440 minutes
+- Capped 5 extreme values in carrier_delay_min at 1440 minutes
+- Capped 2 extreme values in weather_delay_min at 1440 minutes
+- Capped 1 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 1155 cancelled flights
+- Capped 11 extreme values in dep_delay_min at 1440 minutes
+- Capped 11 extreme values in arr_delay_min at 1440 minutes
+- Capped 9 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 321 cancelled flights
+- Capped 3 extreme values in dep_delay_min at 1440 minutes
+- Capped 4 extreme values in arr_delay_min at 1440 minutes
+- Capped 3 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 90 cancelled flights
+- Capped 9 extreme values in dep_delay_min at 1440 minutes
+- Capped 7 extreme values in arr_delay_min at 1440 minutes
+- Capped 6 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 561 cancelled flights
+- Capped 7 extreme values in dep_delay_min at 1440 minutes
+- Capped 6 extreme values in arr_delay_min at 1440 minutes
+- Capped 3 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in weather_delay_min at 1440 minutes
+- Capped 1 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 765 cancelled flights
+- Capped 12 extreme values in dep_delay_min at 1440 minutes
+- Capped 12 extreme values in arr_delay_min at 1440 minutes
+- Capped 4 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in weather_delay_min at 1440 minutes
+- Capped 4 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 1182 cancelled flights
+- Capped 5 extreme values in dep_delay_min at 1440 minutes
+- Capped 5 extreme values in arr_delay_min at 1440 minutes
+- Capped 2 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in nas_delay_min at 1440 minutes
+- Capped 2 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 1581 cancelled flights
+- Capped 9 extreme values in dep_delay_min at 1440 minutes
+- Capped 10 extreme values in arr_delay_min at 1440 minutes
+- Capped 9 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 502 cancelled flights
+- Capped 8 extreme values in dep_delay_min at 1440 minutes
+- Capped 9 extreme values in arr_delay_min at 1440 minutes
+- Capped 5 extreme values in carrier_delay_min at 1440 minutes
+- Capped 2 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 695 cancelled flights
+- Capped 12 extreme values in dep_delay_min at 1440 minutes
+- Capped 12 extreme values in arr_delay_min at 1440 minutes
+- Capped 7 extreme values in carrier_delay_min at 1440 minutes
+- Capped 3 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 572 cancelled flights
+- Capped 15 extreme values in dep_delay_min at 1440 minutes
+- Capped 15 extreme values in arr_delay_min at 1440 minutes
+- Capped 9 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in weather_delay_min at 1440 minutes
+- Capped 2 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 1305 cancelled flights
+- Capped 8 extreme values in dep_delay_min at 1440 minutes
+- Capped 8 extreme values in arr_delay_min at 1440 minutes
+- Capped 5 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 723 cancelled flights
+- Capped 5 extreme values in dep_delay_min at 1440 minutes
+- Capped 6 extreme values in arr_delay_min at 1440 minutes
+- Capped 1 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in nas_delay_min at 1440 minutes
+- Capped 3 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 157 cancelled flights
+- Capped 7 extreme values in dep_delay_min at 1440 minutes
+- Capped 7 extreme values in arr_delay_min at 1440 minutes
+- Capped 5 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in nas_delay_min at 1440 minutes
+- Capped 1 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 949 cancelled flights
+- Capped 7 extreme values in dep_delay_min at 1440 minutes
+- Capped 7 extreme values in arr_delay_min at 1440 minutes
+- Capped 3 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in weather_delay_min at 1440 minutes
+- Capped 2 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 382 cancelled flights
+- Capped 5 extreme values in dep_delay_min at 1440 minutes
+- Capped 5 extreme values in arr_delay_min at 1440 minutes
+- Capped 5 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 495 cancelled flights
+- Capped 4 extreme values in dep_delay_min at 1440 minutes
+- Capped 4 extreme values in arr_delay_min at 1440 minutes
+- Capped 3 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 690 cancelled flights
+- Capped 12 extreme values in dep_delay_min at 1440 minutes
+- Capped 12 extreme values in arr_delay_min at 1440 minutes
+- Capped 6 extreme values in carrier_delay_min at 1440 minutes
+- Capped 2 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 902 cancelled flights
+- Capped 5 extreme values in dep_delay_min at 1440 minutes
+- Capped 7 extreme values in arr_delay_min at 1440 minutes
+- Capped 3 extreme values in carrier_delay_min at 1440 minutes
+- Capped 2 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 1227 cancelled flights
+- Capped 8 extreme values in dep_delay_min at 1440 minutes
+- Capped 8 extreme values in arr_delay_min at 1440 minutes
+- Capped 5 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 1054 cancelled flights
+- Capped 7 extreme values in dep_delay_min at 1440 minutes
+- Capped 8 extreme values in arr_delay_min at 1440 minutes
+- Capped 3 extreme values in carrier_delay_min at 1440 minutes
+- Capped 3 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 2415 cancelled flights
+- Capped 7 extreme values in dep_delay_min at 1440 minutes
+- Capped 6 extreme values in arr_delay_min at 1440 minutes
+- Capped 5 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 2514 cancelled flights
+- Capped 14 extreme values in dep_delay_min at 1440 minutes
+- Capped 14 extreme values in arr_delay_min at 1440 minutes
+- Capped 6 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in weather_delay_min at 1440 minutes
+- Capped 3 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 1065 cancelled flights
+- Capped 6 extreme values in dep_delay_min at 1440 minutes
+- Capped 7 extreme values in arr_delay_min at 1440 minutes
+- Capped 4 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 1365 cancelled flights
+- Capped 11 extreme values in dep_delay_min at 1440 minutes
+- Capped 11 extreme values in arr_delay_min at 1440 minutes
+- Capped 9 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in nas_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 1058 cancelled flights
+- Capped 8 extreme values in dep_delay_min at 1440 minutes
+- Capped 8 extreme values in arr_delay_min at 1440 minutes
+- Capped 8 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 755 cancelled flights
+- Capped 9 extreme values in dep_delay_min at 1440 minutes
+- Capped 9 extreme values in arr_delay_min at 1440 minutes
+- Capped 7 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 1425 cancelled flights
+- Capped 8 extreme values in dep_delay_min at 1440 minutes
+- Capped 8 extreme values in arr_delay_min at 1440 minutes
+- Capped 6 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 1626 cancelled flights
+- Capped 6 extreme values in dep_delay_min at 1440 minutes
+- Capped 5 extreme values in arr_delay_min at 1440 minutes
+- Capped 2 extreme values in carrier_delay_min at 1440 minutes
+- Capped 2 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 809 cancelled flights
+- Capped 6 extreme values in dep_delay_min at 1440 minutes
+- Capped 7 extreme values in arr_delay_min at 1440 minutes
+- Capped 3 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 2149 cancelled flights
+- Capped 3 extreme values in dep_delay_min at 1440 minutes
+- Capped 3 extreme values in arr_delay_min at 1440 minutes
+- Capped 2 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 2150 cancelled flights
+- Capped 7 extreme values in dep_delay_min at 1440 minutes
+- Capped 6 extreme values in arr_delay_min at 1440 minutes
+- Capped 5 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 10495 cancelled flights
+- Capped 21 extreme values in dep_delay_min at 1440 minutes
+- Capped 21 extreme values in arr_delay_min at 1440 minutes
+- Capped 11 extreme values in carrier_delay_min at 1440 minutes
+- Capped 4 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 1833 cancelled flights
+- Capped 14 extreme values in dep_delay_min at 1440 minutes
+- Capped 15 extreme values in arr_delay_min at 1440 minutes
+- Capped 3 extreme values in carrier_delay_min at 1440 minutes
+- Capped 8 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 574 cancelled flights
+- Capped 11 extreme values in dep_delay_min at 1440 minutes
+- Capped 11 extreme values in arr_delay_min at 1440 minutes
+- Capped 4 extreme values in carrier_delay_min at 1440 minutes
+- Capped 4 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 6303 cancelled flights
+- Capped 8 extreme values in dep_delay_min at 1440 minutes
+- Capped 8 extreme values in arr_delay_min at 1440 minutes
+- Capped 3 extreme values in carrier_delay_min at 1440 minutes
+- Capped 2 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 2763 cancelled flights
+- Capped 10 extreme values in dep_delay_min at 1440 minutes
+- Capped 10 extreme values in arr_delay_min at 1440 minutes
+- Capped 5 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 361 cancelled flights
+- Capped 9 extreme values in dep_delay_min at 1440 minutes
+- Capped 9 extreme values in arr_delay_min at 1440 minutes
+- Capped 7 extreme values in carrier_delay_min at 1440 minutes
+- Capped 2 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 1919 cancelled flights
+- Capped 12 extreme values in dep_delay_min at 1440 minutes
+- Capped 13 extreme values in arr_delay_min at 1440 minutes
+- Capped 4 extreme values in carrier_delay_min at 1440 minutes
+- Capped 6 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 359 cancelled flights
+- Capped 3 extreme values in dep_delay_min at 1440 minutes
+- Capped 3 extreme values in arr_delay_min at 1440 minutes
+- Capped 3 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 878 cancelled flights
+- Capped 6 extreme values in dep_delay_min at 1440 minutes
+- Capped 6 extreme values in arr_delay_min at 1440 minutes
+- Capped 3 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 395 cancelled flights
+- Capped 5 extreme values in dep_delay_min at 1440 minutes
+- Capped 5 extreme values in arr_delay_min at 1440 minutes
+- Capped 3 extreme values in carrier_delay_min at 1440 minutes
+- Capped 2 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 136 cancelled flights
+- Capped 4 extreme values in dep_delay_min at 1440 minutes
+- Capped 4 extreme values in arr_delay_min at 1440 minutes
+- Capped 2 extreme values in carrier_delay_min at 1440 minutes
+- Capped 2 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 419 cancelled flights
+- Capped 10 extreme values in dep_delay_min at 1440 minutes
+- Capped 10 extreme values in arr_delay_min at 1440 minutes
+- Capped 8 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 74 cancelled flights
+- Capped 7 extreme values in dep_delay_min at 1440 minutes
+- Capped 7 extreme values in arr_delay_min at 1440 minutes
+- Capped 6 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 388 cancelled flights
+- Capped 11 extreme values in dep_delay_min at 1440 minutes
+- Capped 11 extreme values in arr_delay_min at 1440 minutes
+- Capped 11 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 2197 cancelled flights
+- Capped 6 extreme values in dep_delay_min at 1440 minutes
+- Capped 6 extreme values in arr_delay_min at 1440 minutes
+- Capped 3 extreme values in carrier_delay_min at 1440 minutes
+- Capped 2 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 286 cancelled flights
+- Capped 5 extreme values in dep_delay_min at 1440 minutes
+- Capped 5 extreme values in arr_delay_min at 1440 minutes
+- Capped 5 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 4529 cancelled flights
+- Capped 2 extreme values in dep_delay_min at 1440 minutes
+- Capped 2 extreme values in arr_delay_min at 1440 minutes
+- Capped 2 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 947 cancelled flights
+- Capped 1 extreme values in dep_delay_min at 1440 minutes
+- Capped 1 extreme values in arr_delay_min at 1440 minutes
+- Capped 1 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 134 cancelled flights
+- Capped 7 extreme values in dep_delay_min at 1440 minutes
+- Capped 7 extreme values in arr_delay_min at 1440 minutes
+- Capped 5 extreme values in carrier_delay_min at 1440 minutes
+- Capped 2 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 200 cancelled flights
+- Capped 9 extreme values in dep_delay_min at 1440 minutes
+- Capped 7 extreme values in arr_delay_min at 1440 minutes
+- Capped 5 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 145 cancelled flights
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 662 cancelled flights
+- Capped 2 extreme values in dep_delay_min at 1440 minutes
+- Capped 3 extreme values in arr_delay_min at 1440 minutes
+- Capped 2 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 1104 cancelled flights
+- Capped 3 extreme values in dep_delay_min at 1440 minutes
+- Capped 3 extreme values in arr_delay_min at 1440 minutes
+- Capped 1 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 113 cancelled flights
+- Capped 2 extreme values in dep_delay_min at 1440 minutes
+- Capped 2 extreme values in arr_delay_min at 1440 minutes
+- Capped 2 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 285 cancelled flights
+- Capped 4 extreme values in dep_delay_min at 1440 minutes
+- Capped 4 extreme values in arr_delay_min at 1440 minutes
+- Capped 4 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 415 cancelled flights
+- Capped 5 extreme values in dep_delay_min at 1440 minutes
+- Capped 5 extreme values in arr_delay_min at 1440 minutes
+- Capped 5 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 110 cancelled flights
+- Capped 8 extreme values in dep_delay_min at 1440 minutes
+- Capped 8 extreme values in arr_delay_min at 1440 minutes
+- Capped 5 extreme values in carrier_delay_min at 1440 minutes
+- Capped 3 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 354 cancelled flights
+- Capped 7 extreme values in dep_delay_min at 1440 minutes
+- Capped 7 extreme values in arr_delay_min at 1440 minutes
+- Capped 6 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 370 cancelled flights
+- Capped 7 extreme values in dep_delay_min at 1440 minutes
+- Capped 6 extreme values in arr_delay_min at 1440 minutes
+- Capped 3 extreme values in carrier_delay_min at 1440 minutes
+- Capped 3 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 542 cancelled flights
+- Capped 8 extreme values in dep_delay_min at 1440 minutes
+- Capped 8 extreme values in arr_delay_min at 1440 minutes
+- Capped 3 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in weather_delay_min at 1440 minutes
+- Capped 3 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 951 cancelled flights
+- Capped 6 extreme values in dep_delay_min at 1440 minutes
+- Capped 5 extreme values in arr_delay_min at 1440 minutes
+- Capped 4 extreme values in carrier_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 1095 cancelled flights
+- Capped 16 extreme values in dep_delay_min at 1440 minutes
+- Capped 17 extreme values in arr_delay_min at 1440 minutes
+- Capped 8 extreme values in carrier_delay_min at 1440 minutes
+- Capped 1 extreme values in weather_delay_min at 1440 minutes
+- Capped 3 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+- Converted hhmm time columns to minutes since midnight
+- Set delay/time columns to 0 for 820 cancelled flights
+- Capped 11 extreme values in dep_delay_min at 1440 minutes
+- Capped 11 extreme values in arr_delay_min at 1440 minutes
+- Capped 3 extreme values in carrier_delay_min at 1440 minutes
+- Capped 5 extreme values in late_aircraft_delay_min at 1440 minutes
+- Added analytical features (delay category, departure period, etc.)
+
+---
+
+## db1b_market
+
+- **Initial Rows**: 32,766,855
+- **Final Rows**: 31,235,364
+- **Rows Removed**: 1,531,491
+- **Initial Columns**: N/A
+- **Final Columns**: N/A
+
+### Cleaning Steps
+
+- Removed 2666 bulk fare itineraries
+- Removed 1528825 fares outside [$20, $9998] range
+
+---
+
+## db1b_coupon
+
+- **Initial Rows**: 0
+- **Final Rows**: 0
+- **Rows Removed**: 0
+- **Initial Columns**: N/A
+- **Final Columns**: N/A
+
+### Cleaning Steps
+
+- Skipped - not used in revenue model
+
+---

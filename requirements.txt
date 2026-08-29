@@ -1,0 +1,38 @@
+# Core Data Processing
+pandas>=2.2.0
+numpy>=1.26.0
+polars>=1.5.0
+
+# Database & SQL
+duckdb>=1.0.0
+sqlalchemy>=2.0.0
+
+# Data Validation
+great-expectations>=0.18.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.29.0
+nbformat>=5.9.0
+
+# Utilities
+pyyaml>=6.0.1
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+pathlib>=1.0.1
+
+# Web Automation (for T-100 download)
+selenium>=4.15.0
+
+# Optional: Forecasting
+prophet>=1.1.5
+statsmodels>=0.14.0
+
+# Optional: ML
+scikit-learn>=1.4.0
+xgboost>=2.0.0
